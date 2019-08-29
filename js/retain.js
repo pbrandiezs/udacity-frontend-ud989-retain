@@ -55,7 +55,7 @@ $(function(){
                 htmlStr += '<li class="note">'+
                         note.content +
                         '<span class="note-date">'+
-                        new Date(note.date).toString()+
+                        new Date(note.date).toString() +
                         '</span>' +
                     '</li>';
             });
